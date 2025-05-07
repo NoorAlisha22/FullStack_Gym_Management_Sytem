@@ -1,0 +1,170 @@
+.whole-division{
+    display: flex;
+}
+.content {
+    /* flex: 1; */
+    /* padding: 20px; */
+    /* overflow: hidden;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 85px; */
+    margin-top: 75px;
+    /* background-color:rgb(231, 226, 226); */
+    background: #f4f4f4; 
+    border-radius: 10px;
+    /* height: 640px; */
+    /* width: 1130px; */
+   width: 960px;
+    height: 590px; 
+    padding: 20px;   
+
+
+}
+
+
+.table-container {
+    max-height: 500px;
+    max-width: 900px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; 
+    border-spacing: 10px;
+}
+.custom-table{
+    width: 1055px;
+    background-color:rgb(231, 226, 226);
+}
+
+thead {
+    /* position: sticky; */
+    /* top: 0; */
+
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.tablehead{
+    padding: 90px;
+}
+th, td {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px; 
+}
+.profile-pic {
+    width: 40px;
+    border-radius:50%;
+}
+.title-wrap{
+    display: flex;
+    padding: 10px;
+}
+.search-div{
+    display: flex;
+}
+.search-inp{
+    position: relative;
+    border: 2px solid black;
+    /* width: 199px; */
+}
+.search-logo{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.heading{
+    font-size: 10px;
+}
+.right-div1{
+    display: flex;
+    justify-content: end;
+}
+.right-div2{
+    display: flex;
+    margin-left: 720px;
+}
+.right-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.checkboxx{
+    width: 18px;
+}
+.custom-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+  
+.custom-modal-content {
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 20px;
+  }
+  
+  .modal-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .modal-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-button.confirm {
+    background: black;
+    color: white;
+    border: none;
+  }
+  
+  .modal-button.cancel {
+    background: transparent;
+    border: 1px solid #ccc;
+  }
+.navList a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+.navItem:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius:5px;
+}
+td a{
+    color: black;
+    text-decoration: none;
+}
+
+.right-div-pay{
+     display: flex;
+     margin-left: 460px;
+
+}
+option{
+    color: gray;
+}
+select{
+    color: gray;
+}

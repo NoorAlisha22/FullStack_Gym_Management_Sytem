@@ -1,0 +1,44 @@
+.whole-div{
+    display: flex;
+}
+.parent-wrapper{
+    background: #f4f4f4; 
+    margin-top: 75px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 960px;
+    height: 590px; 
+
+}
+.wrapper{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px;
+}
+.log-but{
+    background-color: black;
+    color: white;
+    margin-right: 50px;
+    padding: 2px;
+    width: 90px;
+}
+.cancel{
+    width: 90px;
+}
+.but-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.txt{
+    font-size: 20px;
+}

@@ -1,0 +1,76 @@
+.login-parent {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    background-image: url('../assets/login-bg.jpg');
+    background-size: cover;
+  }
+  
+  .login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    text-align: center;
+  }
+  
+  .logo-circle {
+    padding: 20px;
+    }
+  
+  .gym-name h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .gym-name span {
+    font-size: 18px;
+    color: gray;
+  }
+  
+  h4 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .otp-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .otp-input {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    /* outline: none;
+    transition: all 0.2s ease-in-out; */
+  }
+  /* .otp-input:focus{
+    border-color: red;
+  } */
+  
+  .login-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resend-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+    cursor:pointer;
+  }

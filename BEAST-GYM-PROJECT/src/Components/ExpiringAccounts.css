@@ -1,0 +1,90 @@
+
+
+.contentt {
+   display: flex;
+   /* background-color: red; */
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* width: 1800px;  */
+   max-height: 360px;
+   overflow-y: auto;
+   /* background-color: green; */
+}
+
+table {
+   /* width: 100%; */
+   border-collapse: separate;
+   border-spacing: 10px; 
+   max-height: 300px;
+   overflow-y: auto;
+   /* text-align:center; */
+}
+.customEx-table{
+   /* width: 1055px; */
+   height: 350px;
+   background-color:rgb(231, 226, 226);
+}
+
+thead {
+   position: sticky;
+   /* top: 0; */
+   background: white;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+th, td {
+   text-align: center;
+   background: rgba(255, 255, 255, 0.8); 
+   border-radius: 5px; 
+   
+}
+.profile-pic {
+   width: 40px;
+   border-radius:50%;
+}
+.custom-modal-overlay {
+   background-color: rgba(0, 0, 0, 0.5); 
+}
+ 
+.custom-modal-content {
+   width: 300px;
+   height: 150px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   border-radius: 8px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   border: none;
+   padding: 20px;
+ }
+ 
+ .modal-text {
+   margin-bottom: 20px;
+   font-size: 16px;
+ }
+ 
+ .modal-buttons {
+   display: flex;
+   gap: 10px;
+ }
+ 
+ .modal-button {
+   padding: 8px 16px;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ .modal-button.confirm {
+   background: black;
+   color: white;
+   border: none;
+ }
+ 
+ .modal-button.cancel {
+   background: transparent;
+   border: 1px solid #ccc;
+ }

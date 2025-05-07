@@ -1,0 +1,116 @@
+.whole-div{
+    display: flex;
+}
+.profile-div{
+  padding: 20px;
+  width: 800px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+.mela{
+    background: #f4f4f4; 
+    margin-top: 75px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1130px;
+    height: 640px; */
+    width: 960px;
+    height: 590px;
+}
+.prf-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+.avatar-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.avatar{
+  width: 130px;
+  border-radius: 100%;
+  /* padding-right: 100px;    */
+}
+.name{
+    font-size: 23px;
+    text-align: center;
+}
+.content-div1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: gray;
+
+}
+.content-div2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: gray;
+
+}
+.d1, .d2, .d3 , .d4{
+    border: 2px solid gray;
+    padding: 5px;
+    width: 160px;
+    height: 70px;
+    text-align: center;
+    color: gray;
+}
+/* .edit-btn{
+    padding: 5px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
+    background-color: white;
+    color: gray;
+} */
+
+.edit-btn, .save-btn {
+    padding: 5px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
+    background-color: white;
+    color: gray;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.save-btn {
+    color:gray;
+}
+.prf-top a{
+    text-decoration: none;
+    color: black;
+}
+.change-photo-btn{
+    width: 120px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: -120px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.capture-btn{
+    width: 120px;
+    height: 30px;
+    /* margin-top: -100px; */
+    /* margin-left: -124px; */
+    border: 1px solid gray;
+    border-radius: 10px;
+}

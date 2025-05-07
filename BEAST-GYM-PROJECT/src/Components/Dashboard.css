@@ -1,0 +1,192 @@
+
+.whole-col{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.dash-top{
+    background-color:rgb(231, 226, 226);
+    padding:10px;
+    border-radius: 10px;
+    width: 960px;
+}
+.expiry-table{
+    background-color:rgb(231, 226, 226);
+    border-radius: 10px;
+    width: 960px;
+    height: 570px;
+}
+.dash-content{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 75px; 
+    width: 960px;
+    height: 590px;
+}
+.new-reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newRegister {
+    background: #262323;
+    color: #fff;
+    width: 370px;
+    padding: 20px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.newRegister a{
+    text-decoration: none;
+}
+.access-but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150PX;
+}
+.expired{
+    font-size: 17px;
+    background: white;
+    color: gray;
+    width: 380px;
+    height: 56px;
+    padding: 20px;
+    border: white;
+    border-bottom: 5px solid red;
+    border-radius: 10px;
+    cursor:  pointer;
+}
+.expired:hover{
+    background-color: red;
+    color: white;
+}
+.expiring{
+    font-size: 17px;
+    background: white;
+    color: gray;
+    width: 380px;
+    height: 56px;
+    padding: 20px;
+    border: white;
+    border-bottom: 5px solid green;
+    border-radius: 10px;
+    cursor:  pointer;
+}
+.expiring:hover{
+    background-color: rgb(28,236,28);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* .whole-col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.dash-top{
+    background-color:rgb(231, 226, 226);
+    padding:10px;
+    border-radius: 10px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.expiry-table{
+    background-color:rgb(231, 226, 226);
+    border-radius: 10px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dash-content{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 75px; 
+
+}
+.new-reg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.newRegister {
+    background: #262323;
+    color: #fff;
+    width: 370px;
+    padding: 20px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.newRegister a{
+    text-decoration: none;
+}
+.access-but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150PX;
+}
+.expired{
+    font-size: 17px;
+    background: white;
+    color: gray;
+    width: 380px;
+    height: 56px;
+    padding: 20px;
+    border: white;
+    border-bottom: 5px solid red;
+    border-radius: 10px;
+    cursor:  pointer;
+}
+.expired:hover{
+    background-color: red;
+    color: white;
+}
+.expiring{
+    font-size: 17px;
+    background: white;
+    color: gray;
+    width: 380px;
+    height: 56px;
+    padding: 20px;
+    border: white;
+    border-bottom: 5px solid green;
+    border-radius: 10px;
+    cursor:  pointer;
+}
+.expiring:hover{
+    background-color: rgb(28,236,28);
+    color: white;
+} */

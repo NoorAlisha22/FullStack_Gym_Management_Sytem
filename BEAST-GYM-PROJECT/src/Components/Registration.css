@@ -1,0 +1,144 @@
+.whole-div{
+    display: flex;
+}
+.reg {
+    background: url("../assets/Regbg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    /* margin-left: 20px; */
+    padding: 30px;
+    /* width: 1800px; */
+    /* width: 1130px;
+    height: 640px; */
+    margin-top: 75px; 
+    width: 960px;
+    height: 590px;
+    
+}
+
+.back {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 1px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+.back a{text-decoration: none;}
+.reg-head {
+    text-align: center;
+    font-size: 29px;
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    column-gap: 100px;
+}
+
+.inp1 input {
+    width: 90%; 
+    padding: 10px;
+    margin: 0px ; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.5); 
+    color: black;
+}
+
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+    color: red;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+  
+}
+
+
+.inp2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 250px;
+}
+
+/* .camdiv {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 100px;
+    margin-right: 100px;
+} */
+.camdiv {
+    width: 260px;
+    height: 250px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.take-photo {
+    background: white;
+    color:gray;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    /* margin-right: 100px; */
+
+}
+
+.inp1 {
+    background: rgba(255, 255, 255, 0.2); 
+    width: 500px;
+    height: 450px;
+    padding: 20px; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    backdrop-filter: blur(10px); 
+    overflow-y: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: gray transparent; 
+}
+
+
+.inp1::-webkit-scrollbar {
+    width: 6px;
+}
+
+.inp1::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+.inp1::-webkit-scrollbar-track {
+    background:transparent;
+}
+.upload-but{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 130px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
