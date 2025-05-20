@@ -68,7 +68,7 @@ Features include member registration, secure authentication, attendance tracking
 
 ##Folder Structure
 
-   gym-management-system/
+gym-management-system/
 │
 ├── backend/
 │   ├── app/
@@ -93,3 +93,6 @@ Features include member registration, secure authentication, attendance tracking
 │   └── package.json
 │
 └── README.md
+
+##License
+This project is licensed under the MIT License.
