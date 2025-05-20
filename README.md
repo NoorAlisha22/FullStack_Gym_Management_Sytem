@@ -66,7 +66,7 @@ Features include member registration, secure authentication, attendance tracking
     npm start
    ```
 
-##Folder Structure
+## Folder Structure
 
 gym-management-system/
 │
@@ -94,5 +94,5 @@ gym-management-system/
 │
 └── README.md
 
-##License
+## License
 This project is licensed under the MIT License.
