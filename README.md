@@ -22,8 +22,8 @@ Features include member registration, secure authentication, attendance tracking
 * Frontend: React, JavaScript, CSS
 * Backend: Python, FastAPI
 * Database: MySQL
-* Authentication: Basic auth (specify what you use)
-* Other: Axios (for API calls), React Router
+* Authentication: Basic auth
+* Other: Axios , React Router
 
 ---
 
